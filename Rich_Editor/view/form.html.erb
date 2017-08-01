@@ -40,3 +40,5 @@
   Rails.application.config.assets.precompile += %w( application.css application.js ckeditor/* )
 
 如果觉得默认工具列（toolbar)太复杂，可以改用mini toolbar配置；
+
+<%= f.cktext_area :description, ckeditor: { toolbar: 'mini', language: 'zh-CN'}%>
